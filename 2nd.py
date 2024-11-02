@@ -144,17 +144,21 @@ else:
 
     # Assignment
 
-marks = 90
-if marks >= 90 :
+
+marks =int(input("enter your Marks"))
+if marks == 90 :
     print("A")
-if marks >= 80:
+elif marks > 80:
     print("B")
-if marks >= 70 :
+elif marks > 70 :
     print("B+")
-if marks >= 60:
+elif marks > 60:
     print("C")
 else:
     print("flase")
+
+
+    
     
 
 
