@@ -64,6 +64,17 @@ print(name3.title())
 print(name3.capitalize())
 print(name3.swapcase())
 print(name3.center(20 , "_"))
+print(name3.count("r"))
+print(name3.endswith("bhatti"))
+print(name3.expandtabs(20))
+print(name3.find("a"))  #index b same h find k.
+print("-" .join(name3)) 
+
+
+li = list(name3)
+name5 = "".join(li)
+print(name5)
+print(li)
 
 
 
@@ -73,9 +84,62 @@ print(name3)
 print(name4)
 
 #git commit -m "first commit"
-#git branch -M main
-#git remote add origin https://github.com/ShamrayzaNazir/g.git
-#git push -u origin main
+
+
+name6 = "shamrayza"
+li = list(name6)
+li.pop()  # pop se last wala word khtm ho jata
+name7 = "".join(li)
+print(name7)
+print(li)
+
+# python stateMent
+# types: if , if else, elif, nested, ternary|short hand
+
+#if
+i = 10 
+if i != 10 :
+    print("i is") # false ki output ni mily gi.
+
+
+#if else
+i = 10 
+if i == 10 :
+    print("i is")  
+else:
+    print("i is not")
+
+
+i = 10 
+if i != 10 :
+    print("i is")   
+else:
+    print("i is not")
+
+
+#elif
+
+i = 25
+if i == 10:
+    print("no")
+elif i == 20:
+    print("nooo")
+elif i ==15:
+    print("no way")
+elif i==25:
+    print("yes it is")
+else:
+    print("this is not")
+
+i = 10
+if i==10:
+    print("parent if")
+    if i > 5 :
+        print("child if")
+    else:
+        print("child else")
+else:
+    print("parent else")
 
 
 
