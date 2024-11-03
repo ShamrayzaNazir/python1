@@ -3,7 +3,7 @@
 
 
 # loops   loops i table py chlty hen.....
-# for loop
+# for in loop
 
 name = "sherry"  
 
@@ -14,7 +14,7 @@ number = [1,2,3,4,5,6,7,8]
 for character in number:
     print(character)  #simple loop
 
-    # loop range
+    # for range loop
 
 for x in range(1,10):
     print("Atif")
