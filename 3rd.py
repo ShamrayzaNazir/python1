@@ -97,7 +97,7 @@ for x in range(1,4):
     print("*****")
 
 
-for x in range(1,101):
+#for x in range(1,101):
     
     if x % 3 == 0 and x % 5 == 0:
         print("FizzBuzz")
@@ -109,6 +109,15 @@ for x in range(1,101):
         print(x)
 
 
+
+year = int(input())
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 == 0:
+         if year % 600 == 0:
+            print("leap year")
+        else:
+            print("not leap year")    
 
 
 
