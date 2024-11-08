@@ -108,7 +108,3 @@ age = int(input("write your age :"))
 print("the age is ", age)
 print(type(age))
 
-
-
-
-
